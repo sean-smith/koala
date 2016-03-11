@@ -1,0 +1,39 @@
+html, body {
+	width: 250px;
+	height: 250px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #ededed;
+}
+
+.centered {
+	margin: auto;
+}
+
+.device {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.device:hover {
+	text-decoration: underline;
+}
+
+.device-entry:hover {
+	text-decoration: underline;
+}
+
+.device-entry {
+	max-width: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.link-img {
+	padding-right: 5px;
+}

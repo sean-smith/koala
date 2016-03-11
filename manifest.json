@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "turtle",
+	"version": "0.1",
+	"permissions": [
+		"sessions", 
+		"tabs",
+		"chrome://favicon/"
+	],
+	"browser_action": {
+		"default_title": "Tabs Open on Device",
+		"default_icon": "iphone-128x128.png",
+		"default_popup": "popup.html"
+	}
+}
