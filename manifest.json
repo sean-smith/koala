@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "Chrome Device Manager",
+	"name": "Chrome Device Tab Manager",
 	"version": "0.1",
 	"permissions": [
 		"sessions", 
@@ -8,8 +8,12 @@
 		"chrome://favicon/"
 	],
 	"browser_action": {
-		"default_title": "Tabs Open on Device",
-		"default_icon": "iphone-128x128.png",
+		"default_title": "Tabs open on your devices.",
+		"default_icon": "images/iphone-128x128.png",
 		"default_popup": "popup.html"
+	},
+	"icons": { 
+		"48": "images/iphone-48x48.png",
+		"128": "images/iphone-128x128.png"
 	}
 }
